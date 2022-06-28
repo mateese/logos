@@ -1,0 +1,151 @@
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #FADEC7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 60px 0px;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+.container {
+    max-width: 1400px;
+    padding: 0 10px;
+    margin: 0px auto;
+}
+.first_block {
+}
+.fr_title {
+    font-size: 28px;
+    line-height: calc(34 / 28 * 100%);
+    padding: 0px 0px 24px 0px;
+    font-weight: 400;
+}
+.fr_inner {
+    display: flex;  
+    flex-wrap: wrap;
+}
+.image{
+    max-width: 300px;
+    max-height: 450px;
+}
+.block_one {
+    margin-left: 34px;
+    margin-right: 48px;
+}
+.block_one_title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: calc(27 / 22 * 100%);
+    margin-bottom: 48px;
+}
+.block_one_title_points{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.block_one_info {
+    padding-bottom: 24px;
+}
+.info-title {
+    font-size: 22px;
+    line-height: 27px;
+    padding-bottom: 7px;
+    font-weight: 400;
+}
+.info-subtitle {
+    font-size: 18px;
+    line-height: 165.4%;
+}
+.info-subtitle_img{
+    display: flex;
+    align-items: center;
+}
+.info-subtitle_knoledge{
+    padding-left: 20px;
+}
+.info-subtitle_img img{
+    padding-left: 5px;
+}
+.block_two {
+}
+
+
+/*============== second_block =================*/
+.second_block {
+    margin-top: 25px;
+}
+.sc_inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cs_form {
+    margin-right: 102px;
+}
+.form_title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 35px;
+}
+.your_name {
+    padding-bottom: 7px;
+    font-size: 16px;
+}
+.input{
+    margin-bottom: 24px;
+    background-color: #FFEAD8;
+    width: 250px;
+    height: 40px;
+    padding: 10px 20px;
+    color: #9A7353;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+}
+.button {
+
+}
+button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FFD6B4;
+    color: #997C65;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: #B99171;
+    color: #fadbc1;
+    transition: all 0.5s ease 0s;
+}
+.cs_info {
+}
+.cs_info_title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 35px;
+}
+.cs_info_text{
+    max-width: 675px;
+}
+.cs_info_text p{
+    font-size: 20px;
+    line-height: 165.4%;
+
+}
+p + p{
+    padding-top: 20px;
+}
